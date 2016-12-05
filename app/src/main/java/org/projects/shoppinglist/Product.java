@@ -3,10 +3,6 @@ package org.projects.shoppinglist;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/**
- * Created by david on 12/4/2016.
- */
-
 public class Product implements Parcelable {
     String name;
     int quantity;

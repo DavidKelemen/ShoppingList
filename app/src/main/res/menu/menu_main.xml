@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="org.projects.shoppinglist.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/delete_all"
+        android:icon="@drawable/ic_delete_all"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        android:title="Reset List" />
+
+    <item
+        android:id="@+id/send_list"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:showAsAction="always"
+        android:orderInCategory="2"
+        android:title="Send list"/>
+</menu>
